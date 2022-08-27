@@ -41,23 +41,36 @@
 // {
 //     Console.WriteLine($"ОШИБКА: {number} - Плохое число");
 // }
-Console.WriteLine("Введите координату X первой точки: ");
-int x1 = int.Parse(Console.ReadLine());
-Console.WriteLine("Введите координату Y первой точки: ");
-int y1 = int.Parse(Console.ReadLine());
-Console.WriteLine("Введите координату Z первой точки: ");
-int z1 = int.Parse(Console.ReadLine());
-Console.WriteLine("Введите координату X второй точки: ");
-int x2 = int.Parse(Console.ReadLine());
-Console.WriteLine("Введите координату Y второй точки: ");
-int y2 = int.Parse(Console.ReadLine());
-Console.WriteLine("Введите координату Z второй точки: ");
-int z2 = int.Parse(Console.ReadLine());
-int A = x2 - x1;
-int B = y2 - y1;
-int C = z1 - z2;
+//Задача 2 способ 1
+// Console.WriteLine("Введите координату X первой точки: ");
+// int x1 = int.Parse(Console.ReadLine());
+// Console.WriteLine("Введите координату Y первой точки: ");
+// int y1 = int.Parse(Console.ReadLine());
+// Console.WriteLine("Введите координату Z первой точки: ");
+// int z1 = int.Parse(Console.ReadLine());
+// Console.WriteLine("Введите координату X второй точки: ");
+// int x2 = int.Parse(Console.ReadLine());
+// Console.WriteLine("Введите координату Y второй точки: ");
+// int y2 = int.Parse(Console.ReadLine());
+// Console.WriteLine("Введите координату Z второй точки: ");
+// int z2 = int.Parse(Console.ReadLine());
+// int A = x2 - x1;
+// int B = y2 - y1;
+// int C = z1 - z2;
 
-double length = Math.Sqrt(A * A + B * B + C * C);
-Console.WriteLine($"Длинна отрезка {length}");
+// double length = Math.Sqrt(A * A + B * B + C * C);
+// Console.WriteLine($"Длинна отрезка {length}");
+
+//Задача 3 способ 1
+
+  
+           Console.WriteLine("Введите число N: ");
+            int N = int.Parse(Console.ReadLine());
+
+            for (int i = 1; i <= N; i++)
+            {
+                Console.WriteLine($"{i * i * i} ");
+            }
+        
 
 
